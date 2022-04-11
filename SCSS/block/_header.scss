@@ -1,0 +1,319 @@
+.site-header{
+    width: 100%;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.my-resume{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.resume{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 40px;
+    background-color: #1E2939;
+}
+
+.resume__img{
+    width: 100%;
+    height: 354px;
+}
+
+.resume__list{
+    width: 100%;
+    list-style: none;
+    margin-top: 51px;
+    padding-left: 40px;
+}
+
+.resume__item{
+    margin: 0;
+    padding: 0;
+}
+
+.resume__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.resume__sublist{
+    list-style: none;
+    margin-top: 8px;
+    margin-bottom: 47px;
+    padding: 0;
+}
+
+.resume__subitem{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    
+    
+    color: #FFFFFF;
+}
+
+.resume__link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.resume__span{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #FB6D3A;
+    margin-right:  10px;
+}
+
+.resume-myinfo{
+    width: 509px;
+    margin-left: 88px;
+    padding-top: 102px;
+}
+
+.resume-myinfo__heading{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 24px;
+}
+
+.resume-myinfo__heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+}
+
+.resume__about{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-myinfo__text{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-myinfo__list{
+    margin: 0;
+    padding: 0;
+}
+
+.resume-myinfo__item{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.resume-myinfo__title{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 51px;
+    padding: 0;
+}
+
+.resume-myinfo__heading1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 12px 0px;
+}
+
+.resume-myinfo__sublist{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-myinfo__subitem{
+    margin: 0;
+    padding: 0;
+}
+
+.resume-myinfo__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-myinfo__subspan{
+    color: #FB6D3A;
+}
+
+.resume-myinfo__subtext{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 11px 0px 8px 0px;
+    padding: 0;
+}
+
+.resume-myinfo__suplist{
+    margin: 0;
+}
+
+.resume-myinfo__supitem{
+    margin-bottom: 16px;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.resume-myinfo__education{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 43px;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.resume-myinfo__univercity{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-myinfo__menegment{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 12px 0px;
+    padding: 0;
+}
+
+.resume-myinfo__copyright{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width:375px){
+    .my-resume{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .resume__img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .resume__list{
+        width: 100%;
+        text-align: center;
+    }
+
+    .resume__item{
+        width: 100%;
+        text-align: center;
+    }
+
+    .resume__sublist{
+        width: 100%;
+    }
+
+    .resume__subitem{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .resume-myinfo{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .resume__about{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .resume-myinfo__list, .resume-myinfo__item{
+        width: 100%;
+    }
+}
